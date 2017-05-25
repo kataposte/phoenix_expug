@@ -17,9 +17,9 @@ defmodule PhoenixExpug.Mixfile do
 
   defp deps do
     [
-      {:phoenix, ">= 1.1.0"},
+      {:phoenix, ">= 1.3.0-rc"},
       {:phoenix_html, ">= 2.3.0"},
-      {:expug, ">= 0.0.1"}
+      {:expug, github: "rstacruz/expug"}
     ]
   end
 
